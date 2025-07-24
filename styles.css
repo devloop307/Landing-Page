@@ -93,6 +93,12 @@ h1{
   font-size: 17px;
 }
 
+button:hover{
+  cursor: pointer;
+  background-color: #eeeeee;
+  color: #2b6bc4;
+}
+
 .left p, a{
   color: #e5e7eb;
   font-size: 18px;
@@ -102,4 +108,57 @@ h1{
   color: #e5e7eb;
   font-size: 18px;
   text-align: center;
+}
+
+.footer{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  color: #e5e7eb;
+  padding: 30px 0px;
+}
+
+.title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin-bottom: 20px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-1{
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card{
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882F6;
+  border-radius: 10px;
+  flex-shrink: 1;
+}
+
+.photos{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+}
+
+.super-card{
+  text-align: center;
+  max-width: 150px;
+}
+
+.card{
+  margin-bottom: 10px;
 }
