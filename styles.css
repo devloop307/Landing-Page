@@ -84,7 +84,6 @@ h1{
   justify-content: center;
   align-items: center;
   flex: 1;
-  height: 237px;
 }
 
 .button1{
@@ -247,4 +246,9 @@ button:hover{
   font-weight: 300;
   font-size: 15px;
   margin-bottom: 5px;
+}
+
+.text{
+  color: #6c737c;;
+  font-size: 18px;
 }
